@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 html, body {
 	margin: 0;
@@ -68,18 +70,25 @@ html, body {
 	font-weight: 900;
 }
 .Content__button {
-	height: 40px;
-	weight:10px;
-	background-color: #BD1459;
+	background-color: #F94F98;
+  height: 80px;
+  width: 160px;
+  top: 0px;
+  right: 0px;
+	border-radius: 15px;
+	cursor: pointer;
+	text-align: center;
+}
+.Content__button:hover{
+	opacity: .75;
 }
 .Button {
-	cursor: pointer
-	height: 40px;
-	weight:10px /* Ссылка как блочный элемент */
-  padding: 5px; /* Поля вокруг надписи */
-  text-decoration: none; /* Подчеркивание у ссылок убираем */
-  color: #666; /* Цвет текста */
-  background-color: #BD1459; /* Цвет фона */
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	margin-top: -10px;
+	display: inline-block;
+	font-size: 60px;
+	font-weight: 900;
 }
 .Content__image {
 	 margin: -300px -200px -300px 1000px;
@@ -118,6 +127,7 @@ html, body {
 .List__block {
 	display: inline-block;
 	margin-right: 38px;
+	font-family: 'Anton', sans-serif;
 }
 
 .List__block_end {
